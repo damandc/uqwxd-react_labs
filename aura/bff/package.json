@@ -1,0 +1,13 @@
+{
+  "name": "aura-bff",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AURA Backend-for-Frontend — the only place provider keys exist.",
+  "engines": { "node": ">=20" },
+  "type": "commonjs",
+  "comment_dependencies": "Hand-vetted. Do NOT add LLM-suggested packages without verifying name + publisher (slopsquatting guard). npm install intentionally NOT run in this skeleton.",
+  "dependencies": {
+    "@anthropic-ai/sdk": "0.69.0",
+    "@supabase/supabase-js": "2.58.0"
+  }
+}

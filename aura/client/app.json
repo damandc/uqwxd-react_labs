@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "AURA",
+    "slug": "aura",
+    "scheme": "aura",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "bundleIdentifier": "app.aura.client",
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSCameraUsageDescription": "AURA reads your aura from a quick selfie."
+      }
+    },
+    "android": {
+      "package": "app.aura.client",
+      "permissions": ["CAMERA"]
+    },
+    "plugins": ["expo-camera"]
+  }
+}
